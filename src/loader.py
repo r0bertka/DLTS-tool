@@ -27,7 +27,7 @@ names = ['T', 'Np', 'Cp', 'Cb','G',
          'GS4_W1', 'GS4_W2', 'GS4_W3', 'GS4_W4', 'GS4_W5', 'GS4_W6']
 
 path = os.path.join('..', 'data', 'He6_#2_DLTS_after300C')
-data = pd.read_csv(path, delimiter=' ', skiprows=2, header=None, names=names, usecols=col_index)
+data = pd.read_csv(path, delimiter='    ', skiprows=2, header=None, names=names, usecols=col_index)
 
 min_index, max_index = find_start_end_of_monotonous_section(data)
 
