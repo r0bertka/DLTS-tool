@@ -1,6 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
-import os
 from scipy.signal import savgol_filter
 from scipy.constants import elementary_charge as e
 from scipy.constants import epsilon_0 as eps0
