@@ -10,7 +10,7 @@ reverse_voltage, capacitance, pulse_voltage, dlts_signal = np.loadtxt(path, unpa
 
 # parameters
 eps = 9.7
-area = 1.423e-6  # in m2
+area = 8.73e-7  # in m2
 temperature = 295  # in K
 effective_density_of_states_cb = 3.25e21 * temperature**(3/2)  # in m-3
 trap_energy = 0.74  # trap energy in eV
