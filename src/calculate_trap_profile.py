@@ -8,8 +8,6 @@ from scipy.constants import k as kB
 def calculate_trap_profile(capacitance, pulse_voltage, DLTS_signal,
                            scr_depth, doping_density, epsilon, temperature, effective_density_of_states_cb,
                            trap_energy):
-    scr_depth = scr_depth[:-1]
-    doping_density = doping_density[:-1]
     bulk_doping_density = doping_density[-1]
     bulk_depth_of_scr = scr_depth[-1]
     bulk_capacitance = capacitance[-1]
